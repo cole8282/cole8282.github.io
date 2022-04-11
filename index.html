@@ -1,29 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=1, initial-scale=1.0">
-  <title>Cole's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/SZIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8a66903e8.js" crossorigin="anonymous"></script>
+
+    <meta name="description" content="Cole Hendershot Portfolio" />
+
+    <meta name="title" property="og:title" content="Portfolio" />
+
+    <meta property="og:type" content="Website" />
+
+
+    <meta name="description" property="og:description" content="Cole Hendershot Portfolio" />
+    <meta name="author" content="Cole Hendershot" />
+    <title>Cole Hendershot - Web Developer</title>
 </head>
+
 <body>
-  <h1>Cole Hendershot</h1>
-  		<!-- start home -->
-      <div id="home" class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-              <h3>Simple and Elegant</h3>
-              <h1>Lavish</h1>
-              <h2 class="rotate">DESIGNER &AMP; DEVELOPER, UI &AMP; UX SPECIALIST, PROJECT LEADER</h2>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-              <a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Get started</a>
-            </div>
-            <div class="col-md-2"></div>
-          </div>
+    <header id='home' class="page-containers-navy video">
+        <span id='hamburger' class="hamburger material-icons-outlined">menu</span>
+        <nav>
+            <ul id='hamburgerMenu' class="menu">
+                <li><a id='homeLink' class="menuItem" href="#home">Home</a></li>
+                <li><a id='aboutLink' class="menuItem" href="#aboutMe">About Me</a></li>
+                <li><a id='skillsLink' class="menuItem" href="#skillsPage">Tech Stack</a></li>
+                <li><a id='projectsLink' class="menuItem" href="#projectsPage">Pojects</a></li>
+                <li><a id='contactLink' class="menuItem" href="#contactPage">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="introContainer">
+            <h1 class="myName">Cole Hendershot</h1>
+            <h2 class="myTitle"><em>Web Developer</em></h2>
         </div>
-      </div>
-      <!-- end home -->
+    </header>
+
+    <article id='aboutMe' class="page-containers-orange">
+        <div id="aboutMeContainer">
+            <h1>About Me</h1>
+            <p>
+
+                As someone who enjoys learning and anything that involves new technology of any kind, Web development allows me to
+                create and challenge myself in a fulfilling and satisfying way.
+
+            </p>
+            <p>
+
+                Finding that interest and industry that I wanted to be in growing up was challengeing for me as it is for most. I was
+                consistently looking for something that I could enjoy and be passionate about, I was challenged by friends and family
+                to try solving a simple JavaScript challenge. I was instantly interested in pursuing it and web development as a career for myself.
+
+            </p>
+            <p>
+                When I am not coding or learning new technologies I enjoy spending time with my family and friends. Physical activities such as
+                basketball and going to the gym have always kept me motivated. Reading is a hobby I try to hold onto and always keeps me interested in
+                that next book.
+            </p>
+        </div>
+
+    </article>
+
+    <article id='skillsPage' class="page-containers-navy">
+        <div id="skillsContainer">
+            <h1>Tech Stack</h1>
+            <div id="skillItemContainer">
+                <div id="js" class="itemHolder">
+                    <img src="./images/js.png" alt="JavaScript logo">
+                    <h2>JAVASCRIPT</h2>
+                </div>
+                <div id="html" class="itemHolder">
+                    <img src="./images/html.png" alt="HTML logo">
+                    <h2>HTML</h2>
+                </div>
+                <div id="css" class="itemHolder">
+                    <img src="./images/css.png" alt="CSS logo">
+                    <h2>CSS</h2>
+                </div>
+                <div id="react" class="itemHolder">
+                    <img src="./images/react.png" alt="React logo">
+                    <h2>REACT</h2>
+                </div>
+                <!-- <div id="redux" class="itemHolder">
+                    <img src="./images/redux.png" alt="Redux logo">
+                    <h2>REDUX</h2>
+                </div> -->
+                <div id="node" class="itemHolder">
+                    <img src="./images/node.png" alt="Node logo">
+                    <h2>NODE</h2>
+                </div>
+                <div id="js" class="itemHolder">
+                    <img src="./images/postgres.png" alt="Postgres logo">
+                    <h2>POSTGRES</h2>
+                </div>
+                <div id="express" class="itemHolder">
+                    <img src="./images/express.png" alt="Express logo">
+                    <h2>EXPRESS</h2>
+                </div>
+                <!-- <div id="postman" class="itemHolder">
+                    <img src="./images/postman.png" alt="Postman logo">
+                    <h2>POSTMAN</h2>
+                </div> -->
+            </div>
+
+        </div>
+
+    </article>
+
+    <article id='projectsPage' class="page-containers-orange">
+        <div id="projectsContainer">
+            <h2>Projects</h2>
+
+            <div id='projectBoxContainer'>
+
+                <div id="riddleman" class="projectHolder">
+                    <h2>RIDDLEMAN</h2>
+                    <img src="./images/RiddlemanScreenshot.png"
+                    alt="RIDDLEMAN Project">
+                    <p class="projectText">Riddle game application built using React, Node, HTML and CSS</p>
+                    <div class="btnHolder"><a href="https://www.youtube.com/watch?v=mmJQ2F5gprM"><button class='demoButton'>Live
+                                Demo</button></a><a href="https://github.com/cole8282/DevMountain-Capstone-Project"><button
+                                class='demoButton'>Repository</button></a></div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+
+    <article id="contactPage">
+        <div class="page-containers-navy">
+            <h3 class="myName">Cole Hendershot</h3>
+            <h2 class="myEmail"><em>colehendershot@gmail.com</em></h2>
+            <div id='socialMediaHolder'>
+                <span>
+
+                    <a href=https://www.linkedin.com/in/cole-hendershot-604a91219/ class="fab fa-2x fa-linkedin"></a>
+                </span>
+                <span>
+
+                    <a href="https://github.com/cole8282" class="fab fa-2x fa-github"></a>
+                </span>
+            </div>
+        </div>
+
+    </article>
+
+    <script src="index.js"></script>
 </body>
+
 </html>

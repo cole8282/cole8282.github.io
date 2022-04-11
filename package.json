@@ -1,0 +1,23 @@
+{
+  "name": "cole8282.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cole8282/cole8282.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cole8282/cole8282.github.io/issues"
+  },
+  "homepage": "https://github.com/cole8282/cole8282.github.io#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
