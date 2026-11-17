@@ -5,155 +5,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/SZIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d8a66903e8.js" crossorigin="anonymous"></script>
 
-    <meta name="description" content="Cole Hendershot Portfolio" />
-
-    <meta name="title" property="og:title" content="Portfolio" />
-
-    <meta property="og:type" content="Website" />
-
-
-    <meta name="description" property="og:description" content="Cole Hendershot Portfolio" />
+    <meta name="description" content="Cole Hendershot – Software Engineer III with 4+ years building production software in TypeScript and React." />
+    <meta name="title" property="og:title" content="Cole Hendershot – Software Engineer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Cole Hendershot – Software Engineer III with 4+ years building production software in TypeScript and React." />
     <meta name="author" content="Cole Hendershot" />
-    <title>Cole Hendershot - Web Developer</title>
+    <title>Cole Hendershot - Software Engineer</title>
 </head>
 
 <body>
-    <header id='home' class="page-containers-navy video">
+    <header id='home' class="page-containers-navy">
         <span id='hamburger' class="hamburger material-icons-outlined">menu</span>
         <nav>
             <ul id='hamburgerMenu' class="menu">
-                <li><a id='homeLink' class="menuItem" href="#home">Home</a></li>
-                <li><a id='aboutLink' class="menuItem" href="#aboutMe">About Me</a></li>
-                <li><a id='skillsLink' class="menuItem" href="#skillsPage">Tech Stack</a></li>
-                <li><a id='projectsLink' class="menuItem" href="#projectsPage">Pojects</a></li>
-                <li><a id='contactLink' class="menuItem" href="#contactPage">Contact</a></li>
+                <li><a class="menuItem" href="#home">Home</a></li>
+                <li><a class="menuItem" href="#aboutMe">About Me</a></li>
+                <li><a class="menuItem" href="#experiencePage">Experience</a></li>
+                <li><a class="menuItem" href="#skillsPage">Tech Stack</a></li>
+                <li><a class="menuItem" href="#projectsPage">Projects</a></li>
+                <li><a class="menuItem" href="#contactPage">Contact</a></li>
             </ul>
         </nav>
         <div class="introContainer">
             <h1 class="myName">Cole Hendershot</h1>
-            <h2 class="myTitle"><em>Web Developer</em></h2>
+            <h2 class="myTitle"><em>Software Engineer</em></h2>
+            <p class="introTagline">4+ years building production software with TypeScript &amp; React</p>
         </div>
+        <a href="#aboutMe" class="seeWorkContainer" aria-label="Scroll to About Me"><i class="fas fa-chevron-down fa-2x"></i></a>
     </header>
 
     <article id='aboutMe' class="page-containers-orange">
         <div id="aboutMeContainer">
             <h1>About Me</h1>
             <p>
-
-                As someone who enjoys learning and anything that involves new technology of any kind, Web development allows me to
-                create and challenge myself in a fulfilling and satisfying way.
-
+                I'm a Software Engineer III at TCN, where I've spent more than four years building call center software
+                in TypeScript and React. I started at TCN as an intern and worked my way up, shipping features used by
+                clients every day in a live production environment.
             </p>
             <p>
-
-                Finding that interest and industry that I wanted to be in growing up was challengeing for me as it is for most. I was
-                consistently looking for something that I could enjoy and be passionate about. I was challenged by friends and family
-                to try solving a simple JavaScript problem. I was instantly interested in pursuing it and web development as a career for myself.
-
+                I've always loved learning anything that involves new technology. Outside of work I keep building:
+                I've made and released a complete video game in Unity, and I'm building an algorithmic tennis odds and
+                tracking platform in Python powered by AI agent skills. I'm especially interested in automation and in
+                making the systems I build, and my own workflow, more efficient.
             </p>
             <p>
-                When I am not coding or learning new technologies I enjoy spending time with my family and friends. Physical activities such as
-                basketball and going to the gym have always kept me motivated. Reading is a hobby I try to hold onto and always keeps me interested in
-                that next book.
+                When I'm not coding I enjoy spending time with my family and friends. Basketball and the gym keep me
+                motivated, and reading is a hobby that always has me looking forward to the next book.
             </p>
         </div>
-
     </article>
 
-    <article id='skillsPage' class="page-containers-navy">
+    <article id='experiencePage' class="page-containers-navy">
+        <div id="experienceContainer">
+            <h1>Experience</h1>
+
+            <div class="experienceItem">
+                <div class="experienceHeader">
+                    <h2>TCN <span class="experienceMeta">| Remote</span></h2>
+                    <span class="experienceDates">May 2022 – Present</span>
+                </div>
+                <h3 class="experienceRole">Software Engineer III <span class="experienceMeta">· Promoted from Software Engineering Intern</span></h3>
+                <ul>
+                    <li>Build and maintain call center software in TypeScript and React that lets clients review call recordings, attach features to them, and grade calls with scores and evaluations.</li>
+                    <li>Shipped new products and features across 100+ closed issues in a live production environment.</li>
+                    <li>Monitor and maintain production applications, troubleshooting issues across the full stack.</li>
+                    <li>Collaborate with a team of engineers to plan work and meet project goals and milestones.</li>
+                </ul>
+            </div>
+
+            <div class="experienceItem">
+                <div class="experienceHeader">
+                    <h2>Devmountain <span class="experienceMeta">| Remote</span></h2>
+                    <span class="experienceDates">Dec 2021 – Apr 2022</span>
+                </div>
+                <h3 class="experienceRole">Web Development Program <span class="experienceMeta">· Student Developer</span></h3>
+                <ul>
+                    <li>Built full-stack web applications with React, Node.js, Express, and SQL.</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article id='skillsPage' class="page-containers-orange">
         <div id="skillsContainer">
             <h1>Tech Stack</h1>
             <div id="skillItemContainer">
-                <div id="js" class="itemHolder">
-                    <img src="./images/js.png" alt="JavaScript logo">
-                    <h2>JAVASCRIPT</h2>
+                <div class="itemHolder">
+                    <img src="./images/typescript.png" alt="TypeScript logo">
+                    <h2>TYPESCRIPT</h2>
                 </div>
-                <div id="html" class="itemHolder">
-                    <img src="./images/html.png" alt="HTML logo">
-                    <h2>HTML</h2>
-                </div>
-                <div id="css" class="itemHolder">
-                    <img src="./images/css.png" alt="CSS logo">
-                    <h2>CSS</h2>
-                </div>
-                <div id="react" class="itemHolder">
+                <div class="itemHolder">
                     <img src="./images/react.png" alt="React logo">
                     <h2>REACT</h2>
                 </div>
-                <div id="node" class="itemHolder">
+                <div class="itemHolder">
+                    <img src="./images/js.png" alt="JavaScript logo">
+                    <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="itemHolder">
                     <img src="./images/node.png" alt="Node logo">
                     <h2>NODE</h2>
                 </div>
-                <div id="js" class="itemHolder">
-                    <img src="./images/postgres.png" alt="Postgres logo">
-                    <h2>POSTGRES</h2>
-                </div>
-                <div id="express" class="itemHolder">
+                <div class="itemHolder">
                     <img src="./images/express.png" alt="Express logo">
                     <h2>EXPRESS</h2>
                 </div>
-                <div id="typescript" class="itemHolder">
-                    <img src="./images/typescript.png" alt="Typescript logo">
-                    <h2>TYPESCRIPT</h2>
+                <div class="itemHolder">
+                    <img src="./images/postgres.png" alt="Postgres logo">
+                    <h2>POSTGRES</h2>
+                </div>
+                <div class="itemHolder iconItem">
+                    <i class="fab fa-python" aria-hidden="true"></i>
+                    <h2>PYTHON</h2>
+                </div>
+                <div class="itemHolder iconItem">
+                    <i class="fab fa-unity" aria-hidden="true"></i>
+                    <h2>UNITY / C#</h2>
+                </div>
+                <div class="itemHolder iconItem">
+                    <span class="material-icons-outlined" aria-hidden="true">smart_toy</span>
+                    <h2>CLAUDE AI</h2>
+                </div>
+                <div class="itemHolder">
+                    <img src="./images/html.png" alt="HTML logo">
+                    <h2>HTML</h2>
+                </div>
+                <div class="itemHolder">
+                    <img src="./images/css.png" alt="CSS logo">
+                    <h2>CSS</h2>
                 </div>
             </div>
-
         </div>
-
     </article>
 
-    <article id='projectsPage' class="page-containers-orange">
+    <article id='projectsPage' class="page-containers-navy">
         <div id="projectsContainer">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
 
             <div id='projectBoxContainer'>
 
+                <div id="viggo" class="projectHolder">
+                    <h2>VIGGO</h2>
+                    <div class="projectIcon"><i class="fas fa-gamepad" aria-hidden="true"></i></div>
+                    <p class="projectTags">Unity · C#</p>
+                    <p class="projectText">A complete, released video game built in Unity/C# with fully fleshed-out gameplay systems, original art, and story.</p>
+                    <div class="btnHolder"><a href="https://ryuuzama.itch.io/viggo" target="_blank" rel="noopener"><button class='demoButton'>Play on itch.io</button></a></div>
+                </div>
+
+                <div id="tennis" class="projectHolder">
+                    <h2>TENNIS</h2>
+                    <div class="projectIcon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                    <p class="projectTags">Python · Claude AI</p>
+                    <p class="projectText">An algorithmic tennis odds and match-tracking platform with dozens of polished AI agent skills (Claude) for reports, match simulations, and data collection and tracking.</p>
+                    <div class="btnHolder"><span class="privateNote"><i class="fas fa-lock" aria-hidden="true"></i> Private repository</span></div>
+                </div>
+
+            </div>
+
+            <h2 class="subHeading">Earlier Projects</h2>
+            <div id='earlierProjectContainer'>
+
                 <div id="riddleman" class="projectHolder">
                     <h2>RIDDLEMAN</h2>
-                    <img src="./images/RiddlemanScreenshot.png"
-                    alt="RIDDLEMAN Project">
+                    <img src="./images/RiddlemanScreenshot.png" alt="Riddleman project screenshot">
                     <p class="projectText">Riddle game application built using React, Node, HTML, and CSS</p>
-                    <div class="btnHolder"><a href="https://www.youtube.com/watch?v=mmJQ2F5gprM"><button class='demoButton'>Live
-                                Demo</button></a><a href="https://github.com/cole8282/DevMountain-Capstone-Project"><button
-                                class='demoButton'>Repository</button></a></div>
+                    <div class="btnHolder"><a href="https://www.youtube.com/watch?v=mmJQ2F5gprM" target="_blank" rel="noopener"><button class='demoButton'>Live Demo</button></a><a href="https://github.com/cole8282/DevMountain-Capstone-Project" target="_blank" rel="noopener"><button class='demoButton'>Repository</button></a></div>
                 </div>
 
                 <div id="bomak" class="projectHolder">
                     <h2>BOMAK</h2>
-                    <img src="./images/Bomak-Screenshot.png"
-                    alt="Bomak Project">
-                    <p class="projectText">Bomak application built using Javascript, Node, HTML, and CSS</p>
-                    <div class="btnHolder"><a href="https://www.youtube.com/watch?v=9Xo1G4afExo"><button class='demoButton'>Live
-                                Demo</button></a><a href="https://github.com/cole8282/foundations-finalProject"><button
-                                class='demoButton'>Repository</button></a></div>
+                    <img src="./images/Bomak-Screenshot.png" alt="Bomak project screenshot">
+                    <p class="projectText">Book community application built using JavaScript, Node, HTML, and CSS</p>
+                    <div class="btnHolder"><a href="https://www.youtube.com/watch?v=9Xo1G4afExo" target="_blank" rel="noopener"><button class='demoButton'>Live Demo</button></a><a href="https://github.com/cole8282/foundations-finalProject" target="_blank" rel="noopener"><button class='demoButton'>Repository</button></a></div>
                 </div>
 
             </div>
         </div>
     </article>
 
-
-    <article id="contactPage">
-        <div class="page-containers-navy">
-            <h3 class="myName">Cole Hendershot</h3>
-            <h2 class="myEmail"><em>colehendershot@gmail.com</em></h2>
-            <div id='socialMediaHolder'>
-                <span>
-
-                    <a href=https://www.linkedin.com/in/cole-hendershot-604a91219/ class="fab fa-2x fa-linkedin"></a>
-                </span>
-                <span>
-
-                    <a href="https://github.com/cole8282" class="fab fa-2x fa-github"></a>
-                </span>
-            </div>
+    <article id="contactPage" class="page-containers-orange">
+        <h3 class="myName">Cole Hendershot</h3>
+        <h2 class="myEmail"><em><a href="mailto:colehendershot@gmail.com">colehendershot@gmail.com</a></em></h2>
+        <div id='socialMediaHolder'>
+            <span>
+                <a href="https://www.linkedin.com/in/cole-hendershot-604a91219/" target="_blank" rel="noopener" class="fab fa-2x fa-linkedin" aria-label="LinkedIn"></a>
+            </span>
+            <span>
+                <a href="https://github.com/cole8282" target="_blank" rel="noopener" class="fab fa-2x fa-github" aria-label="GitHub"></a>
+            </span>
         </div>
-
     </article>
 
     <script src="index.js"></script>

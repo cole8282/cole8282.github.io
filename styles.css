@@ -304,3 +304,190 @@ html {
     padding: 3rem;
   }
 }
+/* ---- 2026 refresh ---- */
+.introTagline {
+  color: var(--Arctic);
+  font-size: 1.25rem;
+  font-weight: 200;
+  margin-top: 1rem;
+  padding: 0 1.5rem;
+}
+
+.seeWorkContainer {
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+  text-align: center;
+}
+
+header#home {
+  position: relative;
+}
+
+#experienceContainer {
+  max-width: 850px;
+  width: 100%;
+  padding: 6rem 2rem;
+  color: #fff;
+  text-align: left;
+}
+
+#experienceContainer h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.experienceItem {
+  border-left: 2px solid var(--Rorange);
+  padding: 0 0 0 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experienceHeader h2 {
+  font-weight: 500;
+}
+
+.experienceMeta {
+  font-weight: 200;
+}
+
+.experienceDates {
+  color: var(--Arctic);
+  font-weight: 200;
+  font-style: italic;
+}
+
+.experienceRole {
+  color: #3fd69f;
+  font-weight: 300;
+  margin: 0.25rem 0 1rem;
+}
+
+.experienceItem ul {
+  padding-left: 1.25rem;
+}
+
+.experienceItem li {
+  font-weight: 200;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.iconItem i,
+.iconItem .material-icons-outlined {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+#projectsContainer h1 {
+  padding-bottom: 1rem;
+}
+
+.subHeading {
+  margin-top: 4rem;
+  font-weight: 300;
+  opacity: 0.85;
+}
+
+#earlierProjectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projectIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 1rem 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--Rorange), #1a5b8a);
+}
+
+.projectIcon i {
+  font-size: 5rem;
+  color: #fff;
+  animation: none;
+}
+
+.projectTags {
+  color: #3fd69f;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.privateNote {
+  display: inline-block;
+  border: dashed 1px rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 300;
+}
+
+.privateNote i {
+  animation: none;
+}
+
+#contactPage .myEmail a {
+  color: var(--Arctic);
+}
+
+@media only screen and (max-width: 600px) {
+  .myName {
+    font-size: 56px;
+    line-height: 4rem;
+  }
+  .myTitle {
+    font-size: 30px;
+  }
+  .demoButton {
+    margin: 0.5rem;
+  }
+}
+
+#skillItemContainer {
+  max-width: 900px;
+  gap: 1rem;
+}
+
+.itemHolder {
+  width: 8.5rem;
+  max-width: none;
+  height: 8rem;
+  padding: 0.75rem;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.itemHolder img {
+  height: 3.5rem;
+  max-height: none;
+  width: auto;
+}
+
+.itemHolder h2 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+.iconItem i,
+.iconItem .material-icons-outlined {
+  height: 3.5rem;
+  line-height: 3.5rem;
+  overflow: hidden;
+}
+
+.projectHolder {
+  justify-content: flex-start;
+}
